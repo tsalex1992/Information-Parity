@@ -28,10 +28,10 @@ evaluation = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/tsalex1992/inftsalex1992ity"
-"Bug Tracker" = "https://github.com/tsalex1992/inftsalex1992ity/issues"
-Documentation = "https://github.com/tsalex1992/inftsalex1992ity#readme"
-"Source Code" = "https://github.com/tsalex1992/inftsalex1992ity"
+Homepage = "https://github.com/tsalex1992/Information-Parity"
+"Bug Tracker" = "https://github.com/tsalex1992/Information-Parity/issues"
+Documentation = "https://github.com/tsalex1992/Information-Parity#readme"
+"Source Code" = "https://github.com/tsalex1992/Information-Parity"
 "Paper" = "https://aclanthology.org/2024.findings-emnlp.468"
 
 [build-system]
