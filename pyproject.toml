@@ -1,0 +1,43 @@
+[project]
+name = "information-parity"
+version = "0.1.0"
+description = "A Python package for measuring the relative multilingual performance of language models across different languages"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+authors = [
+    {name = "Information Parity Contributors", email = "tsalex1992@gmail.com"},
+]
+keywords = ["nlp", "language-models", "multilingual", "evaluation", "information-theory"]
+classifiers = [
+        "Intended Audience :: Science/Research",
+        "Programming Language :: Python :: 3",
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "transformers>=4.51.2",
+    "torch>=2.0.0",
+    "numpy>=1.24.0",
+    "tqdm>=4.64.1",
+]
+
+[project.optional-dependencies]
+evaluation = [
+    "datasets>=2.14.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/tsalex1992/inftsalex1992ity"
+"Bug Tracker" = "https://github.com/tsalex1992/inftsalex1992ity/issues"
+Documentation = "https://github.com/tsalex1992/inftsalex1992ity#readme"
+"Source Code" = "https://github.com/tsalex1992/inftsalex1992ity"
+"Paper" = "https://aclanthology.org/2024.findings-emnlp.468"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["information_parity"]
+
